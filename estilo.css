@@ -1,0 +1,422 @@
+/* OH VOCÊ AQUI NOVAMENTE QUERENDO COPIAR CÓDIGO. VAI TRABALHAR, OW. o.õ */
+:root{
+    --azul-escuro: #27408B;
+    --azul-claro: #4876FF;
+    --cinza-azulado: #36648B;
+    --cinza-azulado-claro: #eef4fd;
+    --cinza-azulado-escuro: #c7cacf;
+    --cinza-texto: #444444;
+    --cinza-texto-escuro: #333;
+    --roxo-destaque: #A020F0;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    scroll-behavior: smooth;
+    font-family: 'Montserrat', sans-serif;
+    height: 100%;
+}
+
+
+
+h2{
+    font-size: 2.5rem;
+    color: var(--azul-escuro);
+    font-family: 'Noto Sans', sans-serif;
+    margin-bottom: 8px;
+}
+
+h3{
+    font-size: 1.8rem;
+    color: var(--azul-claro);
+    font-family: 'Noto Sans', sans-serif;
+    margin-bottom: 8px;
+}
+
+h3{
+    font-size: 1.6rem;
+    color: var(--cinza-azulado);
+    font-family: 'Noto Sans', sans-serif;
+    margin-bottom: 8px;
+}
+
+h4{
+    font-size: 1.5rem;
+    font-family: 'Noto Sans', sans-serif;
+    color: var(--cinza-texto-escuro);
+    margin-bottom: 8px;
+}
+
+
+a{
+    font-size: 1.4rem;
+    color: var(--azul-claro);
+    text-decoration: none;
+}
+
+a:hover
+{
+    text-decoration: underline !important;
+}
+
+p{
+    font-size: 1.2rem;
+    color: var(--cinza-texto);
+    line-height: 1.5;
+    margin-bottom: 8px;
+}
+
+
+#cabecalho{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 16px;
+    overflow: hidden;
+    width: 100%;
+    background-color: #FFF;
+}
+
+header li{
+    display: inline-block;
+    margin: 0 8px;
+}
+
+header li a{
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: var(--azul-claro)
+}
+
+header li a:hover{
+    text-decoration: underline;
+    color: var(--azul-escuro)
+}
+
+#botao_menu{
+    position: absolute;
+    left: 12px;
+}
+
+nav{
+    display: none;
+    flex-direction: column;
+    width: 70%;
+    height: 100%;
+    position: absolute;
+    left: 0; 
+    top: 0;
+    text-align: left;
+    background-color: #FFF;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: column;
+}
+
+nav ul li{
+    margin-top: 48px;
+    color: var(--azul-claro);
+    font-size: 1.4rem;
+}
+
+#botao_fechar{
+    color: var(--azul-claro);
+}
+
+#area_banner img{
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+section{
+    margin: 16px 0;
+}
+
+#area_graduacao, #area_pos, #area_cursos, #area_detalhe_curso{
+    margin: 48px 0;
+    padding: 0 12px;
+}
+
+.painel_cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 16px 8px;
+}
+
+.ancora_card{
+    margin: 0;
+}
+
+.ancora_card:hover{
+    text-decoration: none !important;
+}
+
+.card_curso{
+    text-align: center;
+    background-color: var(--cinza-azulado-claro);
+    width: 70%;
+    padding: 24px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    margin: 24px 0; 
+}
+
+.card_curso:hover{
+    background-color: var(--cinza-azulado-escuro);
+}
+
+.card_curso img{
+    border-radius: 5px;
+    margin: 8px 0;
+}
+
+.descricao{
+    text-align: left;
+    margin: 8px 0;
+}
+
+footer{
+    background-color: var(--azul-claro);
+}
+
+footer p{
+    color: var(--cinza-azulado-claro);
+    font-size: 1rem;
+    text-align: center;
+    padding: 8px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rodape_mapa{
+    background-color: var(--azul-escuro);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    line-height: 1.5;
+}
+
+.rodape_mapa ul{
+    list-style-type: none;
+}
+
+.rodape_mapa ul li{
+    margin: 24px 0;
+}
+
+
+.rodape_mapa a{
+    color: var(--cinza-azulado-claro);
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.rodape_mapa img{
+    margin: 8px;
+}
+
+.rodape_assinatura{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+#area_login_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10%;
+    margin-bottom: 0;
+
+}
+
+#area_login_container form{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding: 24px;
+    border-radius: 10px;
+}
+
+#area_login_container form h2{
+  margin-bottom: 48px;
+}
+
+ #area_login_container label{
+    font-size: 1.2rem;
+    color: var(--azul-escuro);
+    font-weight: 500;
+}
+
+
+#area_login_container input{
+    font-size: 1.2rem;
+    margin-bottom: 16px;
+    border-radius: 5px;
+    height: 2.5rem;
+    padding-left: 4px;
+    border-color: var(--azul-escuro);
+    color: var(--cinza-texto-escuro);
+}
+
+
+#area_login_container input::placeholder{
+    color: var(--azul-claro);
+}
+
+#area_login_container button
+{
+    font-size: 1.2rem;
+    width: 50%;
+    margin: 24px auto;
+    background-color: var(--azul-escuro);
+    color: var(--cinza-azulado-claro);
+    font-weight: 700;
+    border: 0;
+    border-radius: 5px;
+    height: 3rem;
+}
+
+.resumo_curso{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.resumo_curso img{
+    border-radius: 5px;
+}
+
+.botao_destaque{
+    background-color: var(--roxo-destaque) !important;
+}
+
+.detalhes_curso{
+    width: 80%;
+}
+
+.detalhes_curso button{
+    font-size: 1.2rem;
+    width: 20%;
+    margin: 24px 16px 24px 0;
+    background-color: var(--azul-escuro);
+    color: var(--cinza-azulado-claro);
+    font-weight: 700;
+    border: 0;
+    border-radius: 5px;
+    height: 3rem;
+}
+
+.area_destaque{
+    background-color: var(--azul-escuro);
+    margin: 24px 0 !important;
+    padding: 8px 16px;
+}
+
+.area_destaque h2, .area_destaque h3 {
+    color: var(--cinza-azulado-claro);
+    margin: 16px 0;
+}
+
+.area_destaque p{
+    color: var(--cinza-azulado-escuro);
+}
+
+.area_destaque li{
+    color: var(--cinza-azulado-escuro);
+    margin-left: 24px;
+    font-size: 1.2rem;
+}
+
+#area_matriz_curso{
+    margin: 16px 8px;
+}
+
+#matriz_curso{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.matriz_curso_semestre{
+    margin: 16px 0;
+    border-radius: 10px;
+}
+
+.matriz_curso_semestre ul{
+    list-style-type: none;
+}
+
+.matriz_curso_semestre_destaque{
+    font-weight: 700;  
+    margin-bottom: 16px; 
+}
+
+@media screen and (min-width: 1024px)
+{
+
+    #cabecalho{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 16px;
+        overflow: hidden;
+        width: 100%;
+        background-color: #FFF;
+    }
+
+    #botao_menu{
+        display: none;
+    }
+
+    nav{
+        display: block;
+        position: relative;
+        z-index: 0;
+        width: auto;
+        padding: 0;
+        text-align: left;
+        background-color: var(--cinza-medio);
+    }
+
+    nav ul{
+        display: block;
+    }
+
+    nav ul li{
+        display: inline;
+        margin-left: 24px;
+    }
+
+    #botao_fechar{
+        display: none;
+    }
+    
+    .painel_cards{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin: 16px 8px;
+    }
+
+    .card_curso{
+        text-align: center;
+        background-color: var(--cinza-azulado-claro);
+        width: 22%;
+        padding: 24px 12px;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+        margin: 24px 0; 
+    }
+}

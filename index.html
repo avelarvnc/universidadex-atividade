@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Universidade X</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Noto+Sans:wght@500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body oncontextmenu="return false" onkeydown="return false">
+
+    <!-- TA ESPIANDO O QUE AQUI, IRMÃO? o.õ
+         VAI FAZER CÓDIGO, VAI.
+    -->
+
+
+    <header id="cabecalho">
+        <span id="botao_menu" class="material-icons md-48" onclick="controlarMenu()">menu</span>
+        <nav id="menu_navegacao">
+            <ul>
+            
+                <li><a href="index.html">Início</a></li>
+                <li><a href="">Graduação</a></li>
+                <li><a href="">Pós Graduação</a></li>
+                <li><a href="">Unidades</a></li>
+                <li><a href="">Eventos</a></li>
+                <li><a href="">Portal do Aluno</a></li>
+                <li>Fechar <span id="botao_fechar" class="material-icons" onclick="controlarMenu()">close</span></li>
+            </ul>
+        </nav>
+
+        <h1><img id="logo" src="img/logo.svg" alt="logotipo da universade x"></h1>
+    </header>
+
+    <main>
+
+    <section id="area_banner">
+        <img src="img/banner.jpg" alt="uma sala de aula com a professora explicando algo que está escrito no quadro branco aos alunos">
+    </section>
+
+    <section id="area_graduacao">
+
+        <h2>Graduação</h2>
+        <h3>Cursos em destaque</h3>
+
+        <section class="painel_cards">
+
+            
+        <a class="ancora_card" href="graduacao_cienciascomputacao.html">
+            <article class="card_curso">
+                <h4>Ciências da Computação</h4>
+                <img src="img/grad-computacao.jpg" alt="um homem utilizando computador escrevendo códigos de programação de sistemas">
+                <div class="descricao">
+                    <p>Nível: Bacharelado</p>
+                    <p>Duração: 4 anos</p>
+                    <a href="graduacao_cienciascomputacao.html">Conheça o curso clicando aqui</a>
+                </div>
+                
+            </article>
+        </a>
+           
+
+        <a class="ancora_card" href="graduacao_cienciascomputacao.html">
+            <article class="card_curso">
+                <h4>Marketing</h4>
+                <img src="img/grad-marketing.jpg" alt="um grupo de pessoas discutindo a criação de um produto">
+                <div class="descricao">
+                    <p>Nível: Tecnológico</p>
+                    <p>Duração: 3 anos</p>
+                    <a href="">Conheça o curso clicando aqui</a>
+                </div>                
+            </article>
+        </a>
+
+        <a class="ancora_card" href="graduacao_cienciascomputacao.html">
+            <article class="card_curso">
+                <h4>Recursos Humanos</h4>
+                <img src="img/grad-rh.jpg" alt="um grupo de pessoas discutindo a respeito de documentos em uma mesa">
+                <div class="descricao">
+                    <p>Nível: Tecnológico</p>
+                    <p>Duração: 3 anos</p>
+                    <a href="">Conheça o curso clicando aqui</a>
+                 </div>
+            </article>
+        </a>
+
+        <a class="ancora_card" href="graduacao_cienciascomputacao.html">
+            <article class="card_curso">
+                <h4>Pedagogia</h4>
+                <img src="img/grad-pedagogia.jpg" alt="uma mulher explicando como utilizar um globo terrestre a um grupo de crianças">
+                <div class="descricao">
+                    <p>Nível: Licenciatura</p>
+                    <p>Duração: 3 anos</p>
+                    <a href="">Conheça o curso clicando aqui</a>
+                </div>
+            </article>
+        </a>
+
+            
+        </section>
+        <a href="graduacao.html">Clique aqui para conhecer o portifólio completo de cursos de Graduação.</a>
+
+    </section>
+
+    <section id="area_pos">
+
+        <h2>Pós Graduação</h2>
+        <h3>Cursos em destaque</h3>
+
+        <section class="painel_cards">
+            <article class="card_curso">
+                <h4>Ciência de Dados</h4>
+                <img src="img/pos-data.jpg" alt="um homem utilizando computador escrevendo códigos de programação de sistemas">
+                <div class="descricao">
+                    <p>Área: Tecnologia da Informação</p>
+                    <p>Duração: 12 meses</p>
+                    <a href="">Conheça o curso clicando aqui</a>
+                </div>
+            </article>
+
+            <article class="card_curso">
+                <h4>Engenharia Web</h4>
+                <img src="img/pos-web.jpg" alt="um grupo de pessoas discutindo a criação de um produto">
+                <div class="descricao">
+                    <p>Área: Tecnologia da Informação</p>
+                    <p>Duração: 12 meses</p>
+                    <a href="">Conheça o curso clicando aqui</a>
+                </div>
+            </article>
+
+            <article class="card_curso">
+                <h4>Marketing Digital</h4>
+                <img src="img/pos-digital.jpg" alt="um grupo de pessoas discutindo a respeito de documentos em uma mesa">
+                <div class="descricao">
+                    <p>Área: Marketing</p>
+                    <p>Duração: 12 meses</p>
+                    <a href="">Conheça o curso clicando aqui</a>
+                </div>
+            </article>
+
+            <article class="card_curso">
+                <h4>Alfabetização</h4>
+                <img src="img/pos-letramento.jpg" alt="uma mulher explicando como utilizar um globo terrestre a um grupo de crianças">
+                <div class="descricao">
+                    <p>Área: Educação</p>
+                    <p>Duração: 12 meses</p>
+                    <a href="">Conheça o curso clicando aqui</a>
+                </div>
+            </article>
+
+            
+        </section>
+        <a href="">Clique aqui para conhecer o portifólio completo de cursos de Pós Graduação.</a>
+
+    </section>
+
+    </main>
+
+    <footer>
+        <div class="rodape_mapa">
+            <img src="img/logo-branco.svg" alt="">
+            <ul>
+                <li><a href="">Unidades</a></li>
+                <li><a href="">Sobre nós</a></li>
+                <li><a href="">Fale conosco</a></li>
+                <li><a href="">Trabalhe conosco</a></li>
+            </ul>
+
+            <div class="social">
+                <p>Encontre-nos nas redes sociais</p>
+                
+                <a href=""><img src="img/icons/facebook.svg" alt="facebook"></a>
+                <a href=""><img src="img/icons/instagram.svg" alt="instagram"></a>
+                <a href=""><img src="img/icons/youtube.svg" alt="youtube"></a>
+                <a href=""><img src="img/icons/linkedin.svg" alt="linkedin"></a>
+            </div>
+        </div>
+
+        <div class="rodape_assinatura">
+            <p>Desenvolvido por Avelar, 2022.</p>
+            <p>Atividade desenvolvida para o curso Técnico em Informática.</p>
+        </div>
+       
+    </footer>
+
+    
+    <script>
+        function controlarMenu(){
+
+            if (menu_navegacao.style.display == 'none'){
+                menu_navegacao.style.display = 'flex'
+                botao_menu.style.display = 'none'
+            }
+            else{
+                menu_navegacao.style.display = 'none'
+                botao_menu.style.display = 'block'
+                cabecalho.style.justifyContent = 'flex-end'
+            }
+            
+        }
+    </script>
+
+</body>
+</html>
