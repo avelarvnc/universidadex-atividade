@@ -54,8 +54,8 @@ h4{
 
 
 a{
-    font-size: 1.4rem;
-    color: var(--azul-claro);
+    font-size: 1.2rem !important;
+    color: var(--azul-escuro);
     text-decoration: none;
 }
 
@@ -396,6 +396,10 @@ footer p{
     nav ul li{
         display: inline;
         margin-left: 24px;
+    }
+
+    #fechar{
+        display: none;
     }
 
     #botao_fechar{
